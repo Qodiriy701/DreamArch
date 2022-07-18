@@ -1,0 +1,35 @@
+{
+  "name": "dreamarch",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@dafcoe/vue-collapsible-panel": "^0.2.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-simple-accordion": "^0.1.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/postcss8": "^1.1.3",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.4.7",
+    "eslint-config-prettier": "^8.3.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.1.4"
+  }
+}
